@@ -9,7 +9,7 @@ body{
 
 .main{
     display: inline-block;
-    margin-right: 200 px;
+    margin: 0 auto;
     width: 750px;
     }
 
