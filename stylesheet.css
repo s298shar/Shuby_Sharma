@@ -19,6 +19,7 @@ body{
     }
 
 .nav{
+    display: block;
     background-color: #363636;
     position: sticky;
     top: 0;
