@@ -6,12 +6,6 @@ body{
     border: 0;
     }
 
-.img1{
-    background-image: url("https://cdn2.iconfinder.com/data/icons/royal-crowns/512/royal-alphabet-crown-letter-english-s-512.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    }
-
 .header{
     display: block;
     background-color: gold;
