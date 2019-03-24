@@ -8,7 +8,8 @@ body{
 
 .img1{
     float: left;
-    overflow: auto;
+    height: 100px;
+    width: auto;
     }
 
 .header{
