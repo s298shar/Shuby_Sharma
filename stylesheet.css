@@ -9,6 +9,7 @@ body{
 .header{
     display: block;
     background-color: gold;
+    background-size: contain;
     color: black;
     padding: 20px;
     width: 100%;
