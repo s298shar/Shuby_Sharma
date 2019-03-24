@@ -12,6 +12,7 @@ body{
     background-color: green;
     margin: 0 auto;
     width: 750px;
+    overflow: auto;
     }
 
 .header{
