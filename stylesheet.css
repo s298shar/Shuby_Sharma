@@ -7,9 +7,9 @@ body{
     }
 
 .img1{
-    float: left;
-    height: 100px;
-    width: auto;
+    background-image: url("https://cdn2.iconfinder.com/data/icons/royal-crowns/512/royal-alphabet-crown-letter-english-s-512.png");
+    background-repeat: no-repeat;
+    background-size: contain;
     }
 
 .header{
