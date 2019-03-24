@@ -64,6 +64,9 @@ li a:hover {
     color: yellow;
     }
 
+.content{
+    background-color: white;
+    }
 .footer{
     display: block;
     background-color: #363636;
