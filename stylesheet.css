@@ -7,6 +7,12 @@ body{
     border: solid white;
     }
 
+.main{
+    display: inline-block;
+    text-align: center;
+    width: 750px;
+    }
+
 .header{
     display: inline-block;
     background-color: gold;
