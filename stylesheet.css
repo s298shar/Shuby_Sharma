@@ -66,6 +66,7 @@ li a:hover {
 
 .content{
     background-color: white;
+    margin: 0;
     }
 .footer{
     display: block;
