@@ -20,7 +20,6 @@ body{
 
 .nav{
     display: block;
-    margin-bottom: 1px;
     background-color: #363636;
     position: sticky;
     overflow: auto;
@@ -29,6 +28,7 @@ body{
     height: 80px;
     padding: 0;
     border-bottom: solid white;
+    border-top: solid white;
     }
 
 ul {
