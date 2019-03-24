@@ -6,6 +6,10 @@ body{
     border: 0;
     }
 
+.img1{
+    float: left;
+    }
+
 .header{
     display: block;
     background-color: gold;
