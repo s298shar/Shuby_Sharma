@@ -3,6 +3,8 @@ body{
     font-family: Ariel;
     margin: 0;
     padding: 0;
+    overflow: auto;
+    border: solid white;
     }
 
 .header{
