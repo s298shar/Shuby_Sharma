@@ -8,6 +8,7 @@ body{
 
 .header{
     display: block;
+    text-align: center;
     background-color: gold;
     color: black;
     padding: 20px;
