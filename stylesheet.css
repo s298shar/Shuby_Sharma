@@ -35,7 +35,7 @@ body{
 
 ul {
     background-color: #363636;
-    display: inline-block;
+    display: block;
     margin: 0 auto;
     list-style-type: none;
     width: 100%;
