@@ -14,7 +14,7 @@ body{
     padding: 20px;
     width: 1000px;
     border-radius: 25px;
-    margin: 1px;
+    margin-left: 10px;
     font-size: 25px;
     border-top: solid white;
     border-left: solid white;
@@ -39,7 +39,7 @@ ul {
     list-style-type: none;
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin-left: 10px;
     }
 
 li {
