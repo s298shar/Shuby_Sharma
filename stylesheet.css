@@ -14,7 +14,7 @@ body{
     padding: 20px;
     width: 1000px;
     border-radius: 25px;
-    margin-left: 10px;
+    margin-left: 50px;
     font-size: 25px;
     border-top: solid white;
     border-left: solid white;
@@ -23,7 +23,7 @@ body{
 
 .nav{
     background-color: #363636;
-    display: inline-block;
+    display: block;
     position: sticky;
     text-align: center;
     top: 0;
@@ -39,7 +39,7 @@ ul {
     list-style-type: none;
     width: 100%;
     padding: 0;
-    margin-left: 10px;
+    margin: 0;
     }
 
 li {
@@ -70,7 +70,7 @@ li a:hover {
     background-color: white;
     width: 900px;
     text-align: center;
-    margin: 0 auto;
+    margin-left: 50px;
     display: block
     }
 
