@@ -27,14 +27,16 @@ body{
     position: sticky;
     top: 0;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     height: 75px;
     padding: 0;
     border: solid white;
     }
 
 ul {
-    background-color: #363636; 
+    background-color: #363636;
+    display: inline-block;
+    margin: 0 auto;
     list-style-type: none;
     width: 100%;
     padding: 0;
