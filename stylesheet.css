@@ -36,10 +36,9 @@ body{
 ul {
     background-color: #363636;
     display: block;
-    margin-right: 250px;
     list-style-type: none;
     width: 100%;
-    padding: 0;
+    padding-left: 50%;
     }
 
 li {
