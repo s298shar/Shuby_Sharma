@@ -7,14 +7,6 @@ body{
     border: solid white;
     }
 
-.main{
-    display: block;
-    background-color: green;
-    margin: 0 auto;
-    width: 750px;
-    overflow: auto;
-    }
-
 .header{
     display: inline-block;
     background-color: gold;
