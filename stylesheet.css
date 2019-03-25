@@ -30,15 +30,14 @@ body{
     height: 75px;
     padding: 0;
     margin: 0;
-    border-bottom: solid white;
-    border-top: solid white;
+    border: solid white;
     }
 
 ul {
     background-color: #363636; 
     list-style-type: none;
     width: 100%;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     }
 
