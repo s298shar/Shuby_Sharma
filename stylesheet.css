@@ -9,7 +9,6 @@ body{
 
 .header{
     display: block;
-    text-align: center;
     background-color: gold;
     color: black;
     padding: 20px;
@@ -28,7 +27,7 @@ body{
     position: sticky;
     text-align: center;
     top: 0;
-    width: 100%;
+    width: 1400px;
     margin: 0;
     padding: 0;
     height: 75px;
