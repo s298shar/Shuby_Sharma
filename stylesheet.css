@@ -14,7 +14,7 @@ body{
     padding: 20px;
     width: 1000px;
     border-radius: 25px;
-    margin: 0 auto;
+    margin: 1px;
     font-size: 25px;
     height: 100px;
     border-top: solid white;
@@ -36,7 +36,7 @@ body{
 
 ul {
     background-color: #363636;
-    display: inline-block;
+    display: block;
     list-style-type: none;
     width: 100%;
     padding: 0;
