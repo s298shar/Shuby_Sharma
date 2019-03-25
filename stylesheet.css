@@ -26,7 +26,7 @@ body{
     position: sticky;
     text-align: center;
     top: 0;
-    height: 100px;
+    height: auto;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -54,7 +54,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 15px 60px;
+  padding: 1500px 60px;
   font-size: 20px;
   text-decoration: none;
 }
