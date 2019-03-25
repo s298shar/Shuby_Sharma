@@ -24,6 +24,7 @@ body{
 
 .nav{
     background-color: #363636;
+    display: inline-block;
     position: sticky;
     text-align: center;
     top: 0;
@@ -39,6 +40,7 @@ ul {
     list-style-type: none;
     width: 100%;
     padding: 0;
+    margin: 0;
     }
 
 li {
