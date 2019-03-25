@@ -9,6 +9,7 @@ body{
 
 .header{
     display: inline-block;
+    text-align: center;
     background-color: gold;
     color: black;
     padding: 20px;
@@ -63,7 +64,7 @@ li a:hover {
 
 .content{
     background-color: white;
-    width: 750px;
+    width: 900px;
     margin: 0;
     display: block
     }
