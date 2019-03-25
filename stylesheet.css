@@ -7,7 +7,7 @@ body{
     }
 
 .header{
-    display: inline-block;
+    display: block;
     background-color: gold;
     color: black;
     padding: 20px;
