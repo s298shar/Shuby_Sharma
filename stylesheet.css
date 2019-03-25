@@ -13,7 +13,7 @@ body{
     background-color: gold;
     color: black;
     padding: 20px;
-    width: 1000px;
+    width: 100%;
     border-radius: 25px;
     margin-left: 1px;
     font-size: 25px;
@@ -71,7 +71,7 @@ li a:hover {
     background-color: white;
     width: 900px;
     text-align: center;
-    margin-left: 1px;
+    margin: 0 auto;
     display: block
     }
 
