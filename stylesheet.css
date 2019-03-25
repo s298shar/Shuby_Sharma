@@ -14,7 +14,7 @@ body{
     padding: 20px;
     width: 1000px;
     border-radius: 25px;
-    margin-left: 50px;
+    margin-left: 1px;
     font-size: 25px;
     border-top: solid white;
     border-left: solid white;
@@ -70,7 +70,7 @@ li a:hover {
     background-color: white;
     width: 900px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 1px;
     display: block
     }
 
