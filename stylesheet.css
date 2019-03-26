@@ -18,7 +18,7 @@ body{
 	height: 96px;
 	background-color: gold;
     border-radius: 25px;
-	border: solid black 2px;
+	border: solid black 3px;
 
 	}
 	
@@ -110,18 +110,42 @@ li a:hover {
 	margin-top: 30px;
     display: block;
 	border-radius: 20px;
-	border: solid black 2px;
+	border: solid black 3px;
     }
 
-.footer{
+#projects{
+    background-color: green;
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+	margin-top: 30px;
+    display: block;
+	border-radius: 20px;
+	border: solid red 3px;	
+	}
+
+#resume{
+    background-color: blue;
+    width: 86%;
+    text-align: center;
+    margin: 0 auto;
+	margin-top: 30px;
+    display: block;
+	border-radius: 20px;
+	border: solid red 3px;	
+	}
+
+#footer{
     display: block;
     background-color: black;
+	text-align: center;
     color: white;
     width: auto;
 	margin-top: 35px;
-    padding: 15px;
+    padding: 25px 15px 5px 15px;
     font-size: 18px;
     min-height: 100px;
+	border-top: solid red 5px;
 	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px;
     }
