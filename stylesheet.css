@@ -6,26 +6,55 @@ body{
     overflow: auto;
     }
 
+.image1{
+	float: left;
+	margin: 25px;
+	margin: 25px 50px;
+	}
+	
+.banner{
+	margin-top: 40px;
+	margin-right: 20px;
+	height: 96px;
+	background-color: gold;
+    border-radius: 25px;
+	border: solid black 2px;
+
+	}
+	
+.name{
+	background: none;
+	text-align: center;
+	text-decoration: bold;
+	float: left;
+	max-width: 70%;
+	max-height: 30px;
+    }
+	
 .main{
     background-color: grey;
-    margin: 0 auto;
-    width: 90%;
-    padding-left: 10%;
-    padding-right: 10%;
-    border: solid red 5px;
+	border-radius: 30px;
+    width: 60%;
+	min-width: 850px;
+	margin: 0 auto;
+	margin-top: 70px;
+	margin-bottom: 40px;
+    border: solid red 8px;
     }
 
 .header{
     display: block;
-    background-color: gold;
+    background-color: white;
     color: black;
     padding: 20px;
+	height: 150px;
     width: auto;
+	overflow: hidden;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     margin-left: 1px;
     font-size: 25px;
-    border: solid white;
+    border: solid black 5px;
     }
 
 .nav{
@@ -33,12 +62,13 @@ body{
     display: inline-block;
     position: sticky;
     text-align: center;
+	border-top: solid red 5px;
+	border-bottom: solid red 5px;
     top: 0;
     height: auto;
-    width: auto;
-    margin: 0 auto;
+    width: 100%;
     padding: 0;
-    border: solid green;
+	margin: 0;
     }
 
 ul {
@@ -53,23 +83,20 @@ ul {
 li {
     float: left;
     border-right: solid white;
-}
+    }
 
-li:last-child {
-  border-right: none;
-}
+
 
 li a {
-  display: inline-block;
-  background-color: #363636;
-  color: white;
-  text-align: center;
-  padding: 24px 60px;
-  font-size: 20px;
-  text-decoration: none;
-}
+    display: inline-block;
+    background-color: #363636;
+    color: white;
+    text-align: center;
+    padding: 24px 60px;
+    font-size: 20px;
+    text-decoration: none;
+    }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: black;
     color: yellow;
@@ -77,19 +104,24 @@ li a:hover {
 
 .content{
     background-color: white;
-    width: 70%;
+    width: 80%;
     text-align: center;
     margin: 0 auto;
-    display: block
+	margin-top: 30px;
+    display: block;
+	border-radius: 20px;
+	border: solid black 2px;
     }
 
 .footer{
     display: block;
     background-color: black;
     color: white;
-    width: 100%;
+    width: auto;
+	margin-top: 35px;
     padding: 15px;
     font-size: 18px;
-    min-height: 100px; 
-    border: solid white;
-}
+    min-height: 100px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+    }
