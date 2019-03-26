@@ -8,7 +8,7 @@ body{
 
 .main{
     background-color: grey;
-    margin: 30px 15% 30px 15%;
+    margin: 30px auto;
     width: 90%;
     padding-left: 10%;
     padding-right: 10%;
