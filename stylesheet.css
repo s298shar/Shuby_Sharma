@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+	background-color: black;
     font-family: Ariel;
     margin: 0;
     padding: 0;
@@ -19,7 +19,6 @@ body{
 	background-color: gold;
     border-radius: 25px;
 	border: solid black 3px;
-
 	}
 	
 .name{
@@ -33,13 +32,13 @@ body{
 	
 .main{
     background-color: grey;
-	border-radius: 30px;
+	border-radius: 34px;
     width: 60%;
 	min-width: 850px;
 	margin: 0 auto;
-	margin-top: 70px;
-	margin-bottom: 40px;
-    border: solid red 8px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	border: solid red 8px;
     }
 
 .header{
@@ -84,8 +83,6 @@ li {
     float: left;
     border-right: solid white;
     }
-
-
 
 li a {
     display: inline-block;
