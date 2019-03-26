@@ -40,7 +40,7 @@ body{
     width: auto;
     margin: 0;
     padding: 0;
-    border: solid white;
+    border: solid green;
     }
 
 ul {
@@ -62,7 +62,8 @@ li:last-child {
 }
 
 li a {
-  display: block;
+  display: inline-block;
+  background-color: #363636;
   color: white;
   text-align: center;
   padding: 24px 60px;
