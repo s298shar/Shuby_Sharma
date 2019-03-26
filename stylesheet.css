@@ -9,7 +9,9 @@ body{
 .main{
     background-color: grey;
     margin: 0 auto;
-    width: 85%;
+    width: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
     border: solid red 5px;
     }
 
