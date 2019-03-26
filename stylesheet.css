@@ -10,7 +10,7 @@ body{
     background-color: grey;
     margin: 0 auto;
     width: 85%;
-    border: solid red 2px;
+    border: solid red 5px;
     }
 
 .header{
@@ -18,7 +18,7 @@ body{
     background-color: gold;
     color: black;
     padding: 20px;
-    width: 100%;
+    width: auto;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     margin-left: 1px;
