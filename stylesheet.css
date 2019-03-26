@@ -25,9 +25,7 @@ body{
     border-top-left-radius: 25px;
     margin-left: 1px;
     font-size: 25px;
-    border-top: solid white;
-    border-left: solid white;
-    border-right: solid white;
+    border: solid white;
     }
 
 .nav{
