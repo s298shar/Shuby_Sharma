@@ -6,10 +6,9 @@ body{
     overflow: auto;
     }
 
-.image1{
+.UWlogo{
 	float: left;
-	margin: 25px;
-	margin: 25px 50px;
+	margin: 25px 30px 25px 50px;
 	}
 	
 .banner{
@@ -17,19 +16,22 @@ body{
 	margin-right: 20px;
 	height: 96px;
 	background-color: gold;
-    	border-radius: 25px;
+    border-radius: 25px;
 	border: solid black 3px;
 
 	}
-	
+
 .name{
-	background: none;
+	display: inline-block;
 	text-align: center;
-	font-family: Helvetica;
 	text-decoration: bold;
+	margin-top: -12px;
+	font-size: 30px;
 	float: left;
+	height: auto;
+	width: auto;
 	max-width: 70%;
-	max-height: 30px;
+	max-height: 80px;
     }
 	
 .main{
@@ -91,6 +93,7 @@ li {
 li a {
     display: inline-block;
     background-color: #363636;
+	font-family: Helvetica;
     color: white;
     text-align: center;
     padding: 24px 60px;
