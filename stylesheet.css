@@ -6,58 +6,56 @@ body{
     overflow: auto;
     }
 
-.UWlogo{
-	float: left;
-	margin: 25px 30px 25px 50px;
-	}
+.main{
+    background-color: grey;
+	border-radius: 6px;
+    width: 90%;
+	min-width: 1100px;
+	margin: 20px auto;
+    border: solid white 4px;
+    }
+
+.header{
+    display: block;
+    background-color: black;
+    color: black;
+    padding: 20px 35px 20px 30px;
+	height: 150px;
+    width: auto;
+	overflow: hidden;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 25px;
+    }
 	
 .banner{
-	margin-top: 40px;
-	margin-right: 20px;
-	height: 96px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 96px;	
+	width: 100%;
 	background-color: gold;
-    border-radius: 25px;
-	border: solid black 3px;
+    border-radius: 20px;
+	border: solid white 4px;
 
+	}
+
+.UWlogo{
+	float: left;
+	margin: -15px 30px 0px 40px;
 	}
 
 .name{
 	display: inline-block;
 	text-align: center;
 	text-decoration: bold;
-	margin-top: -12px;
-	font-size: 30px;
+	text-shadow: 1px 1px white;
+	margin-top: -8px;
+	font-size: 28px;
 	float: left;
 	height: auto;
 	width: auto;
 	max-width: 70%;
 	max-height: 80px;
-    }
-	
-.main{
-    background-color: grey;
-	border-radius: 34px;
-    width: 60%;
-	min-width: 850px;
-	margin: 0 auto;
-	margin-top: 80px;
-	margin-bottom: 50px;
-    border: solid red 8px;
-    }
-
-.header{
-    display: block;
-    background-color: white;
-    color: black;
-    padding: 20px;
-	height: 150px;
-    width: auto;
-	overflow: hidden;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    margin-left: 1px;
-    font-size: 25px;
-    border: solid black 5px;
     }
 
 .nav{
@@ -65,8 +63,8 @@ body{
     display: inline-block;
     position: sticky;
     text-align: center;
-	border-top: solid red 5px;
-	border-bottom: solid red 5px;
+	border-top: solid white 5px;
+	border-bottom: solid white 5px;
     top: 0;
     height: auto;
     width: 100%;
@@ -88,8 +86,6 @@ li {
     border-right: solid white;
     }
 
-
-
 li a {
     display: inline-block;
     background-color: #363636;
@@ -106,37 +102,68 @@ li a:hover {
     color: yellow;
     }
 
-.content{
+#home{
     background-color: white;
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-	margin-top: 30px;
+    width: 90%;
+    margin: 30px auto;
+	height: auto;
+	overflow: hidden;
     display: block;
-	border-radius: 20px;
+	border-radius: 10px;
 	border: solid black 3px;
     }
+	
+.home-profile{
+	margin: 20px auto;
+	border: solid black 3px;
+	padding: 10px;
+	display: block;
+	border-radius: 20px;
+	width: 90%;
+	}
+
+.home-profile-picture-wrapper{
+	display: inline-block;
+	float: left;
+	height: 250px;
+	border: solid black 5px;
+	padding: 15px;
+	margin: 10px 20px 25px 10px;
+	border-radius: 10px;
+	}
+	
+.home-profile-picture{
+	margin: 0 auto;
+	background-image: url("profile.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid black 1px;
+	float: center;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	}	
 
 #projects{
-    background-color: green;
-    width: 85%;
+    background-color: white;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
 	margin-top: 30px;
     display: block;
 	border-radius: 20px;
-	border: solid red 3px;	
+	border: solid black 3px;	
 	}
 
 #resume{
-    background-color: blue;
-    width: 86%;
+    background-color: white;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
 	margin-top: 30px;
     display: block;
 	border-radius: 20px;
-	border: solid red 3px;	
+	border: solid black 3px;	
 	}
 
 #footer{
@@ -148,11 +175,10 @@ li a:hover {
     width: auto;
 	margin-top: 35px;
     padding: 25px 15px 5px 15px;
-    font-size: 18px;
+    font-size: 20px;
     min-height: 100px;
-	border-top: solid red 5px;
-	border-bottom-right-radius: 25px;
-	border-bottom-left-radius: 25px;
+	border-top: solid white 5px;
+	border-radius: 0px 0px 5px 5px;
     }
 
 #links{
