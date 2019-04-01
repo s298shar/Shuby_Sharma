@@ -9,9 +9,9 @@ body{
 .main{
     background-color: grey;
 	border-radius: 6px;
-    width: 90%;
+    width: 88%;
 	min-width: 900px;
-	margin: 20px auto;
+	margin: 30px auto;
     border: solid white 4px;
     }
 
@@ -59,33 +59,29 @@ body{
     }
 
 .nav{
+	display: inline-block;
     background-color: #363636;
-    display: inline-block;
     position: sticky;
-    text-align: center;
 	border-top: solid white 5px;
 	border-bottom: solid white 5px;
     top: 0;
     height: auto;
-    width: 100%;
-    padding: 0;
-	margin: 0;
+	width: 100%;
     }
-
+	
 ul {
     background-color: #363636;
     list-style-type: none;
-    height: 70px;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+	margin: 0;
+	padding: 0;
+	
     }
 
 li {
     float: left;
     border-right: solid white;
     }
-
+	
 li a {
     display: inline-block;
     background-color: #363636;
@@ -93,9 +89,12 @@ li a {
     color: white;
     text-align: center;
     padding: 24px 60px;
+	margin: 0;
     font-size: 20px;
     text-decoration: none;
     }
+	
+
 
 li a:hover {
     background-color: black;
@@ -105,10 +104,9 @@ li a:hover {
 #home{
     background-color: white;
     width: 90%;
+    display: block;
     margin: 30px auto;
 	height: auto;
-	overflow: hidden;
-    display: block;
 	border-radius: 10px;
 	border: solid black 3px;
     }
@@ -120,12 +118,16 @@ li a:hover {
 	display: block;
 	border-radius: 20px;
 	width: 90%;
+	font-size: 20px;
+	height: auto;
+	min-height: 250px;
 	}
 
 .home-profile-picture-wrapper{
 	display: inline-block;
+	background-color: #363636;
 	float: left;
-	height: 250px;
+	height: auto;
 	border: solid black 5px;
 	padding: 15px;
 	margin: 10px 20px 25px 10px;
@@ -141,7 +143,7 @@ li a:hover {
 	float: center;
 	width: 150px;
 	height: 150px;
-	border-radius: 50%;
+	border-radius: 5px;
 	}	
 
 #projects{
